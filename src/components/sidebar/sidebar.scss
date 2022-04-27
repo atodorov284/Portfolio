@@ -1,0 +1,61 @@
+@import '/src/App.scss';
+
+.tags 
+{
+    color: #0096FF;
+    position: absolute;
+    bottom: 0;
+    left: 120px;
+    font-size: 18px;
+    font-family: "Consolas";
+    @include fade-in('1000ms');
+}
+
+.top-tags
+{
+    bottom: auto;
+    top: 35px;
+}
+
+.bottom-tags
+{
+    bottom: 5%;
+}
+
+.bolded-white
+{
+    background: none;
+    font-weight: bold;
+    color: #C4C4C4;
+}
+
+.container
+{
+    width: 100%;
+    will-change: contents;
+    height: 90%;
+    min-height: 566px;
+    top: 5%;
+    margin: 0 auto;
+}
+
+.active
+{
+    svg
+    {
+        color: #74b385;
+    }
+}
+
+.active:hover
+{
+    svg
+    {
+        color: white;
+    }
+}
+
+.custom-width
+{
+    width: 85px;
+}
